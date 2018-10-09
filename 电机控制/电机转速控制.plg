@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\aa\Desktop\电机控制\电机转速控制.uvproj
+Project File Date:  10/09/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.h(8): warning C318: can't open file 'qudong.h'
+main.h(9): warning C318: can't open file 'display.h'
+main.h(10): warning C318: can't open file 'keyled.h'
+MAIN.C(12): warning C206: 'init': missing function-prototype
+MAIN.C(13): warning C206: 'key': missing function-prototype
+MAIN.C(14): warning C206: 'led': missing function-prototype
+MAIN.C(15): warning C206: 'display': missing function-prototype
+MAIN.C(16): warning C206: 'qudong': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  QUDONG
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEY
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0022H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0025H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  QUDONG
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002EH
+Program Size: data=9.0 xdata=0 code=62
+"电机转速控制" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.h(10): warning C318: can't open file 'keyled.h'
+MAIN.C(15): warning C206: 'init': missing function-prototype
+MAIN.C(16): warning C206: 'key': missing function-prototype
+MAIN.C(17): warning C206: 'led': missing function-prototype
+MAIN.C(18): warning C206: 'display': missing function-prototype
+MAIN.C(19): warning C206: 'qudong': missing function-prototype
+compiling display.c...
+compiling key.c...
+compiling qudong.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  QUDONG
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  KEY
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0022H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  KEY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0025H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DISPLAY
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  QUDONG
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002EH
+Program Size: data=9.0 xdata=0 code=62
+"电机转速控制" - 0 Error(s), 17 Warning(s).
